@@ -39,4 +39,4 @@
 -- | Washington Nationals          | 78.0             |
 -- +-------------------------------+------------------+
 
-
+select name, year, avg(wins) from teams where year>2000  group by name;
